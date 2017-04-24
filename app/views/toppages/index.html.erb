@@ -1,3 +1,5 @@
+<% content_for :cover do %>
+
 <div class="cover">
     <div class="cover-inner">
       <div class="cover-contents">
@@ -11,10 +13,12 @@
           
 <% end %>
 
-      </div>
+
     </div>
   </div>
+</div>
+
 <% end %>
 
+<%= render 'items/items', items: @items %>
 
-<p>テスト</p>
